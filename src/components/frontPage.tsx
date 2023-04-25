@@ -1,5 +1,22 @@
+import { useSearchParams } from "react-router-dom";
 import nith from "../assets/nith.png";
 export default function FrontPage() {
+  // get query params using react-router-dom
+  const [searchParams] = useSearchParams();
+
+  const data = {
+    student: "student name",
+    roll: "roll no.",
+    code: "CS-XYZ",
+    sub: "Subject Name",
+    teacher: "teacher name",
+  };
+  let key: keyof typeof data;
+  for (key in data) {
+    data[key] = searchParams.get(key) || data[key];
+  }
+  console.log(data);
+  Object.keys(data).forEach;
   return (
     <svg
       xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -133,7 +150,7 @@ export default function FrontPage() {
             x="104.96508"
             y="160.5468"
           >
-            Computer Network Lab
+            {data.sub}
           </tspan>
         </text>
         <text
@@ -195,7 +212,7 @@ export default function FrontPage() {
             x={105}
             y="171.41951"
           >
-            Submitted to - Dr. Dharmendra Prasad Mahato
+            Submitted to - {data.teacher}
           </tspan>
         </text>
         <text
@@ -245,7 +262,7 @@ export default function FrontPage() {
             y="263.2049"
             id="tspan544"
           >
-            Name - Aryan Pathania
+            Name - {data.student}
           </tspan>
           <tspan
             style={{
@@ -263,7 +280,7 @@ export default function FrontPage() {
             y="269.23218"
             id="tspan546"
           >
-            Roll no - 20bcs020
+            Roll no - {data.roll}
           </tspan>
         </text>
       </g>

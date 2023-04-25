@@ -39,6 +39,7 @@ export default function FormFrontPage() {
             label={data[key]}
             name={key}
             rules={[{ message: "Please input " + data[key] }]}
+            labelCol={{ span: 12 }}
           >
             <Input />
           </Form.Item>

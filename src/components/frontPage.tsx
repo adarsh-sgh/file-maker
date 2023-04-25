@@ -38,11 +38,11 @@ export default function FrontPage() {
           style={printGuideStyle}
           className="no-print"
           actions={[
-            <Button onClick={window.print}>
-              <PrinterOutlined />
-            </Button>,
             <Button onClick={() => setCloseWindow(true)}>
               <CloseCircleOutlined />
+            </Button>,
+            <Button onClick={window.print}>
+              <PrinterOutlined />
             </Button>,
           ]}
         >
@@ -211,7 +211,7 @@ export default function FrontPage() {
               x="78.595299"
               y="147.1196"
             >
-              Course code - CS-326
+              Course code - {data.code}
             </tspan>
           </text>
           <text

@@ -1,49 +1,18 @@
-// disable typescript
-// @ts-nocheck
 import nith from "../assets/nith.png";
 export default function FrontPage() {
   return (
     <svg
-      xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-      xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
       xmlnsXlink="http://www.w3.org/1999/xlink"
       xmlns="http://www.w3.org/2000/svg"
-      xmlns:svg="http://www.w3.org/2000/svg"
       width="210mm"
       height="297mm"
       viewBox="0 0 210 297"
       version="1.1"
       id="svg5"
       xmlSpace="preserve"
-      inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-      sodipodi:docname="file-cover.svg"
-      inkscape:export-filename="aryan.png"
-      inkscape:export-xdpi={120}
-      inkscape:export-ydpi={120}
     >
-      <sodipodi:namedview
-        id="namedview7"
-        pagecolor="#ffffff"
-        bordercolor="#666666"
-        borderopacity={1.0}
-        inkscape:showpageshadow={2}
-        inkscape:pageopacity={0.0}
-        inkscape:pagecheckerboard={0}
-        inkscape:deskcolor="#d1d1d1"
-        inkscape:document-units="mm"
-        showgrid="false"
-        inkscape:zoom="0.54927448"
-        inkscape:cx="-186.6098"
-        inkscape:cy="847.48157"
-        inkscape:window-width={1920}
-        inkscape:window-height={1011}
-        inkscape:window-x={0}
-        inkscape:window-y={0}
-        inkscape:window-maximized={1}
-        inkscape:current-layer="layer1"
-      />
       <defs id="defs2" />
-      <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1">
+      <g>
         <rect
           style={{
             fill: "#ffffff",
@@ -82,7 +51,6 @@ export default function FrontPage() {
           id="text372"
         >
           <tspan
-            sodipodi:role="line"
             id="tspan370"
             style={{
               fontStyle: "normal",
@@ -90,7 +58,6 @@ export default function FrontPage() {
               fontWeight: 900,
               fontStretch: "normal",
               fontFamily: '"Source Serif Pro"',
-              InkscapeFontSpecification: '"Source Serif Pro Heavy"',
               textAlign: "center",
               textAnchor: "middle",
               strokeWidth: "0.200455",
@@ -101,14 +68,12 @@ export default function FrontPage() {
             National Institute of Technology,
           </tspan>
           <tspan
-            sodipodi:role="line"
             style={{
               fontStyle: "normal",
               fontVariant: "normal",
               fontWeight: 900,
               fontStretch: "normal",
               fontFamily: '"Source Serif Pro"',
-              InkscapeFontSpecification: '"Source Serif Pro Heavy"',
               textAlign: "center",
               textAnchor: "middle",
               strokeWidth: "0.200455",
@@ -134,7 +99,6 @@ export default function FrontPage() {
           id="text484"
         >
           <tspan
-            sodipodi:role="line"
             id="tspan482"
             style={{ strokeWidth: "0.264583" }}
             x="98.531143"
@@ -155,7 +119,6 @@ export default function FrontPage() {
           id="text488"
         >
           <tspan
-            sodipodi:role="line"
             id="tspan486"
             style={{
               fontStyle: "normal",
@@ -163,7 +126,6 @@ export default function FrontPage() {
               fontWeight: 900,
               fontStretch: "normal",
               fontFamily: '"Source Serif Pro"',
-              InkscapeFontSpecification: '"Source Serif Pro Heavy"',
               textAlign: "center",
               textAnchor: "middle",
               strokeWidth: "0.290924",
@@ -188,7 +150,6 @@ export default function FrontPage() {
           id="text504"
         >
           <tspan
-            sodipodi:role="line"
             id="tspan502"
             style={{
               fontStyle: "normal",
@@ -197,7 +158,6 @@ export default function FrontPage() {
               fontStretch: "normal",
               fontSize: "5.64444px",
               fontFamily: '"Source Serif Pro"',
-              InkscapeFontSpecification: '"Source Serif Pro Semi-Bold"',
               strokeWidth: "0.169427",
             }}
             x="78.595299"
@@ -220,7 +180,6 @@ export default function FrontPage() {
           id="text508"
         >
           <tspan
-            sodipodi:role="line"
             id="tspan506"
             style={{
               fontStyle: "normal",
@@ -229,7 +188,6 @@ export default function FrontPage() {
               fontStretch: "normal",
               fontSize: "5.64444px",
               fontFamily: '"Source Serif Pro"',
-              InkscapeFontSpecification: '"Source Serif Pro Semi-Bold"',
               textAlign: "center",
               textAnchor: "middle",
               strokeWidth: "0.135396",
@@ -254,7 +212,6 @@ export default function FrontPage() {
           id="text542"
         >
           <tspan
-            sodipodi:role="line"
             id="tspan540"
             style={{
               fontStyle: "normal",
@@ -263,7 +220,6 @@ export default function FrontPage() {
               fontStretch: "normal",
               fontSize: "5.64444px",
               fontFamily: '"Source Serif Pro"',
-              InkscapeFontSpecification: '"Source Serif Pro Bold"',
               textAlign: "center",
               textAnchor: "middle",
               strokeWidth: "0.135811",
@@ -274,7 +230,6 @@ export default function FrontPage() {
             Submitted by
           </tspan>
           <tspan
-            sodipodi:role="line"
             style={{
               fontStyle: "normal",
               fontVariant: "normal",
@@ -282,7 +237,6 @@ export default function FrontPage() {
               fontStretch: "normal",
               fontSize: "5.64444px",
               fontFamily: '"Source Serif Pro"',
-              InkscapeFontSpecification: '"Source Serif Pro Bold"',
               textAlign: "center",
               textAnchor: "middle",
               strokeWidth: "0.135811",
@@ -294,7 +248,6 @@ export default function FrontPage() {
             Name - Aryan Pathania
           </tspan>
           <tspan
-            sodipodi:role="line"
             style={{
               fontStyle: "normal",
               fontVariant: "normal",
@@ -302,7 +255,6 @@ export default function FrontPage() {
               fontStretch: "normal",
               fontSize: "5.64444px",
               fontFamily: '"Source Serif Pro"',
-              InkscapeFontSpecification: '"Source Serif Pro Bold"',
               textAlign: "center",
               textAnchor: "middle",
               strokeWidth: "0.135811",

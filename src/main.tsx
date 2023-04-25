@@ -4,6 +4,7 @@ import App from "./App.tsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import TemplateSvg from "./components/frontPage.tsx";
+import FormFrontPage from "./components/FormFrontPage.tsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -12,6 +13,10 @@ const router = createBrowserRouter([
   {
     path: "/front-page",
     element: <TemplateSvg />,
+  },
+  {
+    path: "/generate-front-page",
+    element: <FormFrontPage />,
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(

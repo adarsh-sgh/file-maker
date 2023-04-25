@@ -1,6 +1,6 @@
 import { useSearchParams } from "react-router-dom";
 import nith from "../assets/nith.png";
-import { Button, Card, Tooltip } from "antd";
+import { Button, Card } from "antd";
 import { CSSProperties, useState } from "react";
 import { CloseCircleOutlined, PrinterOutlined } from "@ant-design/icons";
 export default function FrontPage() {

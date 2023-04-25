@@ -32,7 +32,7 @@ export default function FormFrontPage() {
       onFinish={onFinish}
       onFinishFailed={onFinishFailed}
     >
-      {Object.keys(data).map(key => {
+      {(Object.keys(data) as (keyof Data)[]).map(key => {
         return (
           <Form.Item
             key={key}
